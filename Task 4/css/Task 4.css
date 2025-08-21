@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    width: 400px;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input, select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #0F4D68;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #B7B7B7;
+}
+
+.or {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 14px;
+    color: #555;
+    position: relative;
+}
+
+.or::before,
+.or::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background: #ccc;
+}
+
+.or::before {
+    left: 0;
+}
+
+.or::after {
+    right: 0;
+}
+
+.google-btn {
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+    color: #444;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.google-btn img {
+    width: 20px;
+}
+
+.google-btn a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.google-btn:hover {
+    background: #eee;
+}
